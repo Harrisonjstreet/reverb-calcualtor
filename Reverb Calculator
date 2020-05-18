@@ -1,0 +1,28 @@
+#include <iostream>
+
+int main(){
+
+
+double x;
+
+std::cout << "Reverb takes 3.5% from all sales as a Transaction Fee\n";
+std::cout << "How much did you sell your item for?\n";
+std::cout << "$"; std::cin >> x;
+
+if( x < 0){
+    std::cout << "Possible invalid entry\n";
+}
+else if ( x > 15000){
+    std::cout << "The maximum fee is $350 USD\n";
+    std::cout << "Your profit is: $" << x - 350 << "\n";
+}
+else if (x < 14.2857143){
+    std::cout << "The minimum fee is $.50 USD\n";
+    std::cout << "Your profit is: $" << x - .5 << "\n";
+}
+
+else{
+std::cout << "Your profit is $" << x * .965 << "\n";
+}
+
+    }
