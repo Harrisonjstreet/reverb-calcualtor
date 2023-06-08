@@ -1,14 +1,15 @@
 #include <iostream>
-//last updated: 4/18/2023
+//last updated: 6/8/2023
 
 int main() {
 
-
-    double x;
+    double x,y;
 
     std::cout << "Reverb takes 5% from all sales and a 3.5% transaction fee\n";
     std::cout << "How much did you sell your item for?\n";
     std::cout << "$"; std::cin >> x;
+    std::cout << "How much was shipping?\n";
+    std::cout << "$"; std::cin >> y;
 
     if (x < 0) {
         std::cout << "Possible invalid entry\n";
@@ -23,7 +24,6 @@ int main() {
     }
 
     else {
-        std::cout << "Your profit is $" << x * .915 << "\n";
+        std::cout << "Your profit is $" << (x * .915) - y << "\n";
     }
-
 }
