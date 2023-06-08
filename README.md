@@ -5,6 +5,8 @@
 This is a calculator that can give you a close estimate of what your payout should look like. The way they break it down is slightly more
 complicated than what my code does, so I need to update it. 
 
+![Screenshot 2023-06-08 130102](https://github.com/Harrisonjstreet/reverb-calcualtor/assets/64044958/2aadb33e-425d-4d99-8749-6e3d403921c7)
+
 //NEED TO UPDATE TO EXACT BREAKDOWN > Add Preferred seller vs regular, and update the processing fee
 // 
 //There is a 5% selling fee
